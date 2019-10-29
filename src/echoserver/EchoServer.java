@@ -26,11 +26,6 @@ public class EchoServer {
                     out.write(input);
                 }
                 out.flush();
-                /*
-                //send the current data back to the client.
-                // ex) date
-                writer.println(new java.util.Date().toString());
-                */
                 //close the client
                 client.close();
                 }
